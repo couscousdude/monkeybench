@@ -1,0 +1,69 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is the default shell on Windows, our main development platform?"
+prompt.distractors = ["bash", "zsh", "nushell"]
+answer.answer= "PowerShell"
+answer.context = "PowerShell is the de facto default shell on Windows. Technically, the default shell is cmd.exe, but PowerShell is the modern shell that is recommended for use."
+id = "4cbc7864-f717-47df-ab8c-517d2817e496"
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = "What is the default shell on Linux and WSL on Windows?"
+answer.answer = "bash"
+answer.context = "bash is the default shell on Linux and WSL on Windows. It is the most common shell in use today."
+id = "d1d19e5a-a159-4115-ac87-7116c9a6a964"
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = "Consider the following scenario: you type `git commit` and you are transported to a fullscreen editing environment to write your commit message. What is the name of this editing environment?"
+answer.answer = "vim"
+answer.alternatives = ["vi"]
+answer.context = "vim is the default editor for many command-line tools, including git. It is a powerful text editor that can be difficult to use for beginners."
+id = "e2c8cb47-480c-4904-8d7a-2cab610fe35a"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is the role of the `|` \"pipe\" character in `bash`?"
+prompt.distractors = ["It is used to concatenate strings", "It is used to redirect output to a file", "It is used to run a command in the background"]
+answer.answer = "It is used to pass the output of one command as input to another command"
+answer.context = "The `|` character is used to create a pipeline, where the output of one command is passed as input to another command. This allows you to chain commands together to perform more complex operations."
+id = "de4ad34b-ec51-4141-8437-fab547031016"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following tools are **NOT** terminal-based buffer editors?"
+prompt.distractors = ["vim", "emacs", "nano"]
+answer.answer = "git"
+id = "99a68d48-022c-4c65-ab52-fc11321d8804"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is the purpose of the `ls` command in `bash`?"
+prompt.distractors = ["It creates a new directory", "It shows the user the current working directory", "It creates a new file"]
+answer.answer = "It lists all the files in the current directory"
+answer.context = "The `ls` command is used to list all the files and directories in the current working directory. It is a basic command that is used frequently to navigate the file system."
+id = "17ae1923-494d-4585-92e6-9abe6ff9f6cf"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is the purpose of the `cd` command in `bash`?"
+prompt.distractors = ["It copies a file or directory", "It creates a new directory", "It lists all the files in the current directory"]
+answer.answer = "It changes the current working directory"
+answer.context = "The `cd` command is used to change the current working directory. It allows you to navigate the file system by moving between directories."
+id = "1932e9d6-1d80-4f1d-8ee6-2d38e44e861d"
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = "Consider the following scenario: you type `git commit` and you enter the default commit message editor, known as `vim`. What is the command that you would use to save your changes and exit the editor? Answer with the commonly used shortened form. (Hint: it starts with a `:`)"
+answer.answer = ":wq"
+answer.alternatives = ["wq"]
+answer.context = "In `vim`, the `:wq` command is used to save changes and exit the editor. The `:` character is used to enter command mode, and `wq` stands for write and quit."
+id = "41d2101b-e7a9-4b9b-bbda-871784367df7"
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = "What is the command to quit `vim` without saving? Answer with the commonly used shortened form."
+answer.answer = ":q!"
+answer.alternatives = ["q!"]
+answer.context = "In `vim`, the `:q!` command is used to quit the editor without saving changes. The `:` character is used to enter command mode, and `q!` stands for quit forcefully."
+id = "fe787cc1-6bea-496d-b3b4-15e0d50e3378"

@@ -1,0 +1,75 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = """
+If you attempt to run `$ git push`, but you get:  
+
+```
+hint: Updates were rejected because the remote contains work that you do not have locally. 
+This is usually caused by another repository pushing to the same ref. You may want to first 
+integrate the remote changes 
+
+hint: (e.g., 'git pull ...') before pushing again. hint: See the 'Note about fast-forwards' 
+in 'git push --help' for details.`
+```
+
+What would be your best (or first) option to resolve the issue?
+"""
+prompt.distractors = ["`$ git push --force`", "`$ git sync --upstream`", "`$ git push --mirror`"]
+answer.answer = "`$ git pull`"
+context = "This is a common error message when you try to push changes to a remote repository that has changes you don't have locally. The best way to resolve this is to pull the changes from the remote repository before pushing your changes. Otherwise, you risk overwriting the changes on the remote repository and causing headaches for everyone."
+id = "9c03ebb1-6a6d-465c-a1fc-534b4a56c940"
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = "What does the `git pull` command actually do? How does it differ from `git fetch`? Answer in the box below. The quiz will mark you wrong upon completion, as we will manually grade this question."
+answer.answer = "null"
+id = "5a41176d-3c3b-415b-ae52-2e91479cccab"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Git is a version control system that is first and foremost designed to:"
+prompt.distractors = ["Sync your code to the cloud, like on Github", "Help share your code with your teammates"]
+answer.answer = "Keep track of changes in files and allow cheap branching"
+id = "93cbaae2-bd3f-4c09-9adf-8a58c6d04f89"
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = "What is the difference between a `git merge` and a `git rebase`? Answer in the box below. The quiz will mark you wrong upon completion, as we will manually grade this question."
+answer.answer = "null"
+id = "7bb95ac9-5728-402f-b279-e2a69b368216"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is the purpose of the `git clone` command?"
+prompt.distractors = ["To create a new branch in your local repository", "To push your changes to a remote repository"]
+answer.answer = "To copy a repository from a remote source to your local machine"
+answer.context = "The `git clone` command is used to copy a repository from a remote source to your local machine. This is useful when you want to work on a project that is hosted on a remote server, such as GitHub, and you want to have a local copy of the repository on your machine."
+id = "fae37c4f-6855-4d82-9665-f12e03527101"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Consider the following scenario: You have a local repository with a file called `index.html`. You make some changes to the file and commit them. You then realize that you made a mistake and want to revert the changes to the last commit. What command would accomplish this?"
+prompt.distractors = ["`$ git reset --hard`", "`$ git revert HEAD`", "`$ git rebase -1"]
+answer.answer = "`$ git checkout HEAD index.html`"
+answer.context = "The `git checkout` command allows you to switch branches or restore working tree files. In this case, you want to restore the `index.html` file to the state it was in at the last commit, so you would use `git checkout HEAD index.html`."
+id = "79f0cb26-72ea-4d25-9d85-00e0f3d0566d"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is a 'conflict' in Git?"
+prompt.distractors = ["A situation where two branches have the same commit history", "A situation where a file has been deleted from the repository", "A situation where a file has been added to the repository"]
+answer.answer = "A situation where two branches have diverged and need to be merged"
+id = "12d5bc17-447f-44d7-a0d9-e70dc3f50061"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is a 'fast-fowrad' in Git?"
+prompt.distractors = ["A situation where a branch has been deleted", "A situation where a branch has been merged", "A situation where a branch has diverged"]
+answer.answer = "A situation where a branch can be merged without any conflicts"
+id = "4531396a-ea3f-4722-9c48-480c1d815f30"
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = "Consider the following scenario: you've been working on a feature branch called 'fix-bugs' in your local Git respotiory, and you're ready to merge your changes back into the main branch. What command would you use to merge the feature branch into the main branch? If you need to run multiple commands, then chain them using the `&&` operator (eg. `command1 && command2`). Assume you are currently in the `fix-bugs` branch."
+answer.answer = "git checkout main && git merge fix-bugs"
+id = "22ccfd24-16ae-42fb-aae1-b637d745c52a"

@@ -1,0 +1,12 @@
+[book]
+title = "MonkeyBench"
+authors = ["Ananth Venkatesh", "Youwen Wu"]
+language = "en"
+multilingual = false
+src = "src"
+
+[preprocessor.quiz]
+fullscreen = true
+cache-answers = true
+
+[preprocessor.alerts]

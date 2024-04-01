@@ -1,0 +1,34 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What does the name MonkeyBench refer to?"
+prompt.distractors = [
+  "The best place to find monkeys",
+  "The \"bench\" where the software team sits",
+]
+answer.answer = "The \"benchmark\" for proficiency with common tasks in programming, software development, and robotics, commonly referred to as \"code monkey\" tasks"
+
+context = """
+The name MonkeyBench is a play on the term "code monkey," which refers to a programmer or software developer who performs repetitive or basic tasks. The name MonkeyBench is meant to reflect the idea that the tasks in the examination are common and basic tasks that a programmer or software developer should be proficient in.
+"""
+id = "f0aff3e1-e294-445d-9f20-29346ccebbd9"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Why are we administering an examination?"
+prompt.distractors = [
+  "To maintain the programming aristocracy and power structure",
+  "To perpetuate the dominance of the bourgeoisie over the working class",
+  "Because it's common practice to do so in technical interviews"
+]
+answer.answer = "To ensure that leadership members are proficient in the tasks they are expected to perform"
+context = """
+See the explanation above for more information.
+"""
+id = "eb60d2b1-592e-448b-8057-5d75696a6f7d"
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = "What is our robotics team's **number**? Enter the digits (eg. 254)."
+answer.answer = "1280"
+context = "If you got this wrong, you should probably leave the team."
+id = "15016e59-090f-403a-9a20-102bfdc18d46"
