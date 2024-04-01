@@ -12,18 +12,22 @@ _We are not affiliated with [CrabLang](https://crablang.org), but reserve the ri
 
 <br>
 
-This guide is built with [mdBook](https://rust-lang.github.io/mdBook/), [mdBook-quiz](https://github.com/cognitive-engineering-lab/mdbook-quiz), and [mdBook-alerts](https://github.com/lambdalisue/rs-mdbook-alerts).  
+This guide is built with [mdBook](https://rust-lang.github.io/mdBook/), [a custom fork of mdBook-quiz](https://github.com/couscousdude/mdbook-quiz), and [mdBook-alerts](https://github.com/lambdalisue/rs-mdbook-alerts).  
 To get started, ensure you have the latest version of Rust installed and then run:
 
-```sh
+```bash
 cargo install mdbook
-cargo install mdbook-quiz
 cargo install mdbook-alerts
 ```
 
+You will then need to install the [fork of mdbook-quiz](https://github.com/couscousdude/mdbook-quiz#installation). This fork has the retry feature disabled to prevent cheating.
+
+> [!WARNING]
+> Installing this fork will overwrite the original `mdbook-quiz` installation on your machine, if you have one. You should reinstall it after you are done building this book, to prevent future conflicts.
+
 You can start a development server with:
 
-```sh
+```bash
 mdbook serve
 ```
 
