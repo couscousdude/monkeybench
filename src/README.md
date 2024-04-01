@@ -26,13 +26,7 @@ few commonly asked questions:
 3. How will this exam be graded?  
    <br /> The exam will be graded manually, but you may receive
    immediate feedback for multiple choice and some short answer
-   questions. You may be given the option to reattempt each section if
-   you answer incorrectly, but this is at the discretion of the exam
-   proctor. **You should not retry any quiz sections without
-   permission**, as this may result in the cancellation of your score by
-   your proctor and possible disqualification from consideration for the
-   position. Each question is worth 1 point, unless otherwise indicated.
-   The exam will be scored out of the total amount of points available.
+   questions. You cannot retry any quiz section, and you **cannot return to a previous question after you click 'Submit Query'**. Consider all of your answers final after this point. Each question is worth 1 point, unless otherwise indicated. The exam will be scored out of the total amount of points available.
 
 4. What score is necessary to pass the exam?  
    <br /> A score of 80% or higher will automatically result in a

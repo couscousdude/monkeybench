@@ -12,4 +12,7 @@ knowledge of fundamental commands and operations in Git.
 > marked incorrect by the quiz, but the answer will be reviewed by a
 > human.
 
+> [!WARNING]
+> Remember that you cannot return to a question after you click "Submit Query". You will not be reminded again! Make sure you are confident in your answer before you go on to the next one.
+
 {{#quiz ../quizzes/section-1.toml}}
