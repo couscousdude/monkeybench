@@ -19,7 +19,7 @@ either of the IDEs below to complete this challenge, or code it
 yourself. Input the final answer into the text book below.
 
 <div style="display: flex; flex-direction: column;">
-  <iframe src="https://stackblitz.com/edit/secret-python-4tdteb?embed=1&file=main.py" style="width: 100%; height: 500px;"></iframe>
+  <iframe src="https://stackblitz.com/edit/secret-python-haxf6r?ctl=1&embed=1&file=main.py&view=editor" style="width: 100%; height: 500px;"></iframe>
 
-  <iframe src="https://stackblitz.com/edit/stackblitz-starters-9ii95z?embed=1&file=index.js" style="width: 100%; height: 500px; margin-top: 10px;"></iframe>
+  <iframe src="https://stackblitz.com/edit/stackblitz-starters-9ii95z?ctl=1&embed=1&file=index.js&view=editor" style="width: 100%; height: 500px; margin-top: 10px;"></iframe>
 </div>
