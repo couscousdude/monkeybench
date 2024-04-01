@@ -46,7 +46,10 @@ few commonly asked questions:
 ## Get Started
 
 First, try the example questions below to get accustomed to the exam
-format. These **will not be counted** towards your final score.
+format.
+
+> [!NOTE]
+> These **will not be counted** towards your final score.
 
 {{#quiz ../quizzes/example-quiz.toml}}
 

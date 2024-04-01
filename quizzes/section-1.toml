@@ -21,8 +21,11 @@ id = "9c03ebb1-6a6d-465c-a1fc-534b4a56c940"
 
 [[questions]]
 type = "ShortAnswer"
-prompt.prompt = "What does the `git pull` command actually do? How does it differ from `git fetch`? Answer in the box below. The quiz will mark you wrong upon completion, as we will manually grade this question."
+prompt.prompt = """
+What does the `git pull` command actually do? How does it differ from `git fetch`? Answer in the box below. The quiz will mark you wrong upon completion, as we will manually grade this question.
+"""
 answer.answer = "null"
+answer.context = "This question is manually graded. The quiz will mark you wrong upon completion, but the answer will be reviewed by a human."
 id = "5a41176d-3c3b-415b-ae52-2e91479cccab"
 
 [[questions]]
