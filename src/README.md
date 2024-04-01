@@ -42,6 +42,9 @@ few commonly asked questions:
 First, try the example questions below to get accustomed to the exam
 format.
 
+> [!TIP]
+> Your progress will not be saved until you finish a section (complete all of the questions and see your score for that section). You may go through the sections in any order, but if you exit before finishing, the quiz will reset for that section.
+
 > [!NOTE]
 > These questions **will not be counted** towards your final score.
 
@@ -50,6 +53,6 @@ format.
 <br />
 
 > [!TIP]
-> To begin the exam, click on the first section in the sidebar. You may go
-> through the sections in any order. When you are finished, read through
-> the "Conclusion" section, and you're done. Good luck!
+> To begin the exam, click on the first section in the sidebar,
+> or click the right navigation arrow on the right of the screen. You
+> may go through the sections in any order, but remember that you cannot return to a previous question. When you are finished, read through the "Conclusion" section, and you're done. Good luck!
