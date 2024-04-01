@@ -3,7 +3,7 @@ type = "MultipleChoice"
 prompt.prompt = """
 If you attempt to run `$ git push`, but you get:  
 
-```
+```bash
 hint: Updates were rejected because the remote contains work that you do not have locally. 
 This is usually caused by another repository pushing to the same ref. You may want to first 
 integrate the remote changes 
