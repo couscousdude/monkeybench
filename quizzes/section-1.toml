@@ -52,7 +52,7 @@ id = "fae37c4f-6855-4d82-9665-f12e03527101"
 [[questions]]
 type = "MultipleChoice"
 prompt.prompt = "Consider the following scenario: You have a local repository with a file called `index.html`. You make some changes to the file and commit them. You then realize that you made a mistake and want to revert the changes to the last commit. What command would accomplish this?"
-prompt.distractors = ["`$ git reset --hard`", "`$ git revert HEAD`", "`$ git rebase -1"]
+prompt.distractors = ["`$ git reset --hard`", "`$ git revert HEAD`", "`$ git rebase -1`"]
 answer.answer = "`$ git checkout HEAD index.html`"
 answer.context = "The `git checkout` command allows you to switch branches or restore working tree files. In this case, you want to restore the `index.html` file to the state it was in at the last commit, so you would use `git checkout HEAD index.html`."
 id = "79f0cb26-72ea-4d25-9d85-00e0f3d0566d"
@@ -66,7 +66,7 @@ id = "12d5bc17-447f-44d7-a0d9-e70dc3f50061"
 
 [[questions]]
 type = "MultipleChoice"
-prompt.prompt = "What is a 'fast-fowrad' in Git?"
+prompt.prompt = "What is a 'fast-forward' in Git?"
 prompt.distractors = ["A situation where a branch has been deleted", "A situation where a branch has been merged", "A situation where a branch has diverged"]
 answer.answer = "A situation where a branch can be merged without any conflicts"
 id = "4531396a-ea3f-4722-9c48-480c1d815f30"
