@@ -49,10 +49,13 @@ First, try the example questions below to get accustomed to the exam
 format.
 
 > [!NOTE]
-> These **will not be counted** towards your final score.
+> These questions **will not be counted** towards your final score.
 
 {{#quiz ../quizzes/example-quiz.toml}}
 
-To begin the exam, click on the first section in the sidebar. You may go
-through the sections in any order. When you are finished, read through
-the "Conclusion" section, and you're done. Good luck!
+<br />
+
+> [!TIP]
+> To begin the exam, click on the first section in the sidebar. You may go
+> through the sections in any order. When you are finished, read through
+> the "Conclusion" section, and you're done. Good luck!
